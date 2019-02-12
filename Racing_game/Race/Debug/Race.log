@@ -1,1 +1,9 @@
-﻿  Race.vcxproj -> B:\BitBucket\race\Debug\Race.exe
+﻿  stdafx.cpp
+  EnemyCar.cpp
+  Field.cpp
+  Game.cpp
+b:\github\racing_game\race\game.cpp(56): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  MyCar.cpp
+  Race.cpp
+  Создание кода...
+  Race.vcxproj -> B:\Github\Racing_game\Debug\Race.exe
