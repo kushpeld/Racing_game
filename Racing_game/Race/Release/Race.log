@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  Game.cpp
 b:\github\racing_game\race\game.cpp(56): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   Создание кода
@@ -6,3 +7,18 @@ b:\github\racing_game\race\game.cpp(56): warning C4244: аргумент: пре
     0 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
   Race.vcxproj -> B:\Github\Racing_game\Release\Race.exe
+=======
+﻿  stdafx.cpp
+  EnemyCar.cpp
+  Field.cpp
+  Game.cpp
+b:\bitbucket\race\race\game.cpp(54): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  MyCar.cpp
+  Race.cpp
+  Создание кода
+  110 of 111 functions (99.1%) were compiled, the rest were copied from previous compilation.
+    9 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Race.vcxproj -> B:\BitBucket\race\Release\Race.exe
+>>>>>>> ba8258c5dfd32de5fe7e21e55b2042bf17cf457f

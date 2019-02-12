@@ -35,12 +35,19 @@ void startGame() {
 	gotoXY(30, 7); cout << (char)16 << " RIGHT ARROW";
 	gotoXY(30, 9); cout << (char)30 << " UP ARROW";
 	gotoXY(30, 11); cout << (char)31 << " DOWN ARROW"; colorit(15);
+<<<<<<< HEAD
 	colorit(12); gotoXY(47, 5); cout << "- Every 3 score = level up";
 	gotoXY(47, 7); cout << "- Level up = speed up"; colorit(15);
 
 
 	for (int i = 3; i >= 0; i--) {
 		gotoXY(33, 13); colorit(12); cout << "START " << i; colorit(15);
+=======
+
+
+	for (int i = 3; i >= 0; i--) {
+		gotoXY(33, 13); colorit(9); cout << "START " << i; colorit(15);
+>>>>>>> ba8258c5dfd32de5fe7e21e55b2042bf17cf457f
 		gotoXY(14, 14);
 		Sleep(1000);
 	}
@@ -64,8 +71,11 @@ void startGame() {
 		gotoXY(30, 7); cout << (char)16 << " RIGHT ARROW";
 		gotoXY(30, 9); cout << (char)30 << " UP ARROW";
 		gotoXY(30, 11); cout << (char)31 << " DOWN ARROW"; colorit(15);
+<<<<<<< HEAD
 		colorit(12); gotoXY(47, 5); cout << "- Every 3 score = level up";
 		gotoXY(47, 7); cout <<"- Level up = speed up"; colorit(15);
+=======
+>>>>>>> ba8258c5dfd32de5fe7e21e55b2042bf17cf457f
 		gotoXY(30, 15); colorit(8); Time(); colorit(15);
 		resetBoard();
 		myEnmCar.appear();
@@ -99,6 +109,7 @@ void startGame() {
 
 		}
 
+<<<<<<< HEAD
 		if (mycar.yPos+1 == myEnmCar.yPos-3  )
 		{
 			score++;
@@ -109,6 +120,13 @@ void startGame() {
 			   else speed -= 1;
 			}
 			if (speed <= 0) { gotoXY(14, 3); colorit(12); cout << "YOU WIN!" << endl; colorit(15); running = 0; }
+=======
+		if (mycar.yPos+1 == myEnmCar.yPos-3)
+		{
+			score++;
+			if (score % 2 == 0) { level++; speed = speed  - 15; }
+			if (speed == 0) { gotoXY(14, 3); colorit(12); cout << "YOU WIN!" << endl; colorit(15); running = 0; }
+>>>>>>> ba8258c5dfd32de5fe7e21e55b2042bf17cf457f
 
 		}
 		Sleep(speed);
@@ -116,6 +134,10 @@ void startGame() {
 	}// end while
 		// Close the handle to the thread
 	if (speed >0) { gotoXY(14, 4); colorit(12); cout << "YOU LOSE!" << endl; colorit(15); }
+<<<<<<< HEAD
+=======
+	score = 1, level = 1, speed = 105;
+>>>>>>> ba8258c5dfd32de5fe7e21e55b2042bf17cf457f
 	Sleep(2000);
 	system("cls");
 	gotoXY(30, 15);
