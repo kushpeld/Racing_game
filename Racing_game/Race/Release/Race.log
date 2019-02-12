@@ -1,1 +1,8 @@
-﻿  Race.vcxproj -> B:\Github\Racing_game\Release\Race.exe
+﻿  Game.cpp
+b:\github\racing_game\race\game.cpp(56): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода
+  0 of 111 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Race.vcxproj -> B:\Github\Racing_game\Release\Race.exe
